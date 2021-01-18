@@ -50,3 +50,32 @@ print(n) # print out the the value stored in n
 ## 2.5 Order of operations ##
 # Well aware of this
 
+## 2.6 String operations ##
+# Matheatical operations on strings can't be done, "2"+"2" would print out 22 instead
+# The + operator would append two string together
+# The * operator would repeat a string a certain amount
+
+## 2.7 Comments ##
+# The thing I've been doing with #
+
+## 2.8 Debugging ##
+# Three kinds of errors, Syntax, Runtime, Semantic error
+# Syntax error: Errors in how the code was typed example: print("2)
+# Runtime error: Errors that happend after the execution of the program
+# Semantic error: An error that is hard to detect due to it not actcually cuase an error to crash the system
+
+### Excercise 2.2 ###
+
+r = 5
+volumeSphere = (3/4) * 3.14 * (r**3)
+
+print(volumeSphere)
+#####################
+price = 24.95
+discount = .4
+firstShipping = 3
+restShipping = .75
+totalCopies = 60
+
+totalPrice = totalCopies * (((price * discount)+firstShipping)+restShipping*(totalCopies-1))
+print(totalPrice)
