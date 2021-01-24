@@ -98,3 +98,5 @@ def rightJustify(s):
 
 rightJustify("Montey")
 rightJustify("Harry")
+
+print(len(range(5)))
